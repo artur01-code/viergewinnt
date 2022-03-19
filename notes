@@ -6,5 +6,6 @@ erstelle Spielfeld und fülle mit ' '
 print map mit Spaltenangabe
 
 Eingabe für den Spieler
+	darf nicht größer als eingegebene größe sein
 	Einfügefunktion
 		gehe Zeile nach unten durch und lege Coin möglichst weit unten abgit
