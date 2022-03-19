@@ -1,0 +1,10 @@
+Spielfeldgröße wird als argv übergeben -> y x
+	wenn input keine Zahl, kleiner 4 oder größer 20, werfe error
+
+erstelle Spielfeld und fülle mit ' '
+
+print map mit Spaltenangabe
+
+Eingabe für den Spieler
+	Einfügefunktion
+		gehe Zeile nach unten durch und lege Coin möglichst weit unten abgit
