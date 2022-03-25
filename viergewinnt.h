@@ -15,5 +15,9 @@ int	ft_atoi(const char *str);
 void check_input(t_list **game, char **argv);
 void init_map(t_list *game);
 void print_map(t_list *game);
+void ask_for_input(t_list *game, int player);
+void insert_in_column(t_list *game, int player, int x);
+
+
 
 #endif

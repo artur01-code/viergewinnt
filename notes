@@ -1,11 +1,14 @@
-Spielfeldgröße wird als argv übergeben -> y x
-	wenn input keine Zahl, kleiner 4 oder größer 20, werfe error
+//Spielfeldgröße wird als argv übergeben -> y x
+	//wenn input keine Zahl, kleiner 4 oder größer 20, werfe error
 
-erstelle Spielfeld und fülle mit ' '
+//erstelle Spielfeld und fülle mit ' '
 
-print map mit Spaltenangabe
+//print map mit Spaltenangabe
 
-Eingabe für den Spieler
-	darf nicht größer als eingegebene größe sein
-	Einfügefunktion
-		gehe Zeile nach unten durch und lege Coin möglichst weit unten abgit
+//Eingabe für den Spieler
+	//darf nicht größer als eingegebene größe sein
+	//Einfügefunktion
+		//gehe Zeile nach unten durch und lege Coin möglichst weit unten ab
+
+checke ob vier in einer Reihe sind
+
