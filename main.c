@@ -6,7 +6,7 @@
 /*   By: jtomala <jtomala@students.42wolfsburg.de>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/25 20:09:36 by jtomala           #+#    #+#             */
-/*   Updated: 2022/03/25 21:04:49 by jtomala          ###   ########.fr       */
+/*   Updated: 2022/03/27 18:05:46 by jtomala          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,11 +28,12 @@ int main(int argc, char **argv)
 		check_input(&game, argv);
 		init_map(game);
 		print_map(game);
-		while (1) //check_map(game)
+		while (1)
 		{
 			ask_for_input(game, player);
 			print_map(game);
-			player = ((player + 1) % 2);
+			check_if_won(game, player);
+			player = ((player + 1) % 2); 
 		}
 	}
 	free(game);

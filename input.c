@@ -6,7 +6,7 @@
 /*   By: jtomala <jtomala@students.42wolfsburg.de>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/25 21:04:51 by jtomala           #+#    #+#             */
-/*   Updated: 2022/03/25 21:05:04 by jtomala          ###   ########.fr       */
+/*   Updated: 2022/03/27 17:49:15 by jtomala          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,10 +23,7 @@ void insert_in_column(t_list *game, int player, int x)
 		printf("Column is full\n");
 		ask_for_input(game, player);
 	}
-	if (player == 0)
-		token = 'R';
-	else
-		token = 'Y';
+	token = set_token(player);
 	while (y > 0)
 	{
 		if (game->map[y- 1][x] == 'R' || game->map[y - 1][x] == 'Y')

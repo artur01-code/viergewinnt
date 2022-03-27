@@ -16,7 +16,11 @@ void check_input(t_list **game, char **argv);
 void init_map(t_list *game);
 void print_map(t_list *game);
 void ask_for_input(t_list *game, int player);
+char set_token(int player);
 void insert_in_column(t_list *game, int player, int x);
+void check_if_won(t_list *game, int player);
+void won_and_exit(int player);
+void check_rows(t_list *game, int player);
 
 
 

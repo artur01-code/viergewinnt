@@ -5,7 +5,9 @@ SRCS =	main.c \
 		error_handling.c \
 		ft_atoi.c \
 		start.c \
-		input.c
+		helpers.c \
+		input.c \
+		checks.c
 
 
 OBJS = $(SRCS:.c=.o)
