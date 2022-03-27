@@ -21,6 +21,11 @@ void insert_in_column(t_list *game, int player, int x);
 void check_if_won(t_list *game, int player);
 void won_and_exit(int player);
 void check_rows(t_list *game, int player);
+void check_columns(t_list *game, int player);
+void check_stairs_right(t_list *game, int player);
+void check_stairs_left(t_list *game, int player);
+
+
 
 
 
